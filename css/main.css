@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia,serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.banner img {
+  width: 100%;
+}
+.banner-content {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+}
+
+.banner-content h1,
+.banner-content p {
+  margin: 0;
+}
