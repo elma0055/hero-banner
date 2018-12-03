@@ -19,7 +19,7 @@ body {
   overflow: hidden;
 }
 
-.img-flex img {
+div img.img-flex {
   width: 100%;
 }
 
@@ -28,6 +28,7 @@ body {
   bottom: 1.5em;
   width: 100%;
   color: #fff;
+  max-width: 50em;
 }
 
 .banner h2,
