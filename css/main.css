@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 'Open Sans', sans-serif;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -12,11 +12,13 @@ body {
 }
 
 .img-flex {
+  display: flex;
   position: relative;
   text-align: center;
   font-size: 1.5rem;
   max-height: 500px;
   overflow: hidden;
+  width: 50%;
 }
 
 div img.img-flex {
@@ -24,7 +26,6 @@ div img.img-flex {
 }
 
 .banner {
-  position: absolute;
   bottom: 1.5em;
   width: 100%;
   color: #fff;
@@ -34,4 +35,15 @@ div img.img-flex {
 .banner h2,
 .banner p {
   margin: 0;
+}
+
+.banner p {
+  color: #000;
+  font-size: 2rem;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
 }
