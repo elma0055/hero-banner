@@ -14,16 +14,19 @@ body {
 .banner {
   position: relative;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .banner img {
   width: 100%;
 }
+
 .banner-content {
   position: absolute;
-  bottom: 2em;
+  bottom: 1.5rem;
   width: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba( 0,0,0,0,.8);
 }
 
 .banner-content h1,
