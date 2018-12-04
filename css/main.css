@@ -18,6 +18,7 @@ body {
   overflow: hidden;
   display: block;
   width: 100%;
+  border-bottom: 4px solid rgba(0, 0, 0, .5);
 }
 
 .img-flex img {
@@ -30,7 +31,7 @@ body {
   width: 100%;
   left: 10em;
   max-width: 40em;
-  transform: translate(120px, -10px);
+  transform: translate(120px, 0);
   text-align: left;
 }
 
@@ -44,6 +45,7 @@ body {
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
   padding: 0;
+  margin-bottom: 10px;
 }
 
 .banner p {
