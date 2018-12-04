@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -13,7 +14,10 @@ body {
 .img-flex {
   position: relative;
   text-align: center;
-  font-size:
+  max-height: 500px;
+  overflow: hidden;
+  display: block;
+  width: 100%;
 }
 
 .img-flex img {
@@ -24,6 +28,10 @@ body {
   position: absolute;
   bottom: 1.5em;
   width: 100%;
+  left: 10em;
+  max-width: 40em;
+  transform: translate(120px, -10px);
+  text-align: left;
 }
 
 .banner h2,
@@ -33,4 +41,11 @@ body {
 
 .banner h2 {
   font-size: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 0;
+}
+
+.banner p {
+  font-size: 2rem;
 }
